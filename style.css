@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+:root {
+    --cor0: #815B37;
+    --cor01: white;
+    --cor02: black;
+
+}
+
+
+
+body {
+    font-size: 100%;
+}
+
+header {
+    
+    background-color: var(--cor0);
+    text-align: center;
+    margin-top: auto;
+     
+}
+
+
+.texto-logo {
+
+    color: var(--cor01);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.cabecalho-img {
+    width: 130px;
+}
+
+
+hr {
+
+    border-color: var(--cor02);
+}
+
+.cabecalho-menu {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+    letter-spacing: 3px;
+    
+}
+.cabecalho-item:hover {
+    transition-duration: .10s;
+    color: var(--cor02);
+}
+
+.cabecalho-item {
+    color: var(--cor01);
+    
+}
+
+
+
+.conteudo {
+    
+    
+    border-top: 3px solid var(--cor02);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.peita-Djonga {
+    margin: 25px 25px 25px 25px;
+    width: 600px;
+}
+
+
+
+.conteudo-principal-titulo {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 55px;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.conteudo-principal-subtitulo {
+    
+    text-align: center;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+
+.conteudo-principal-paragrafo {
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+   
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
